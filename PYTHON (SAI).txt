@@ -1,0 +1,255 @@
+                                                  PYTHON NOTES
+                                                  ------------
+
+                                                                                                         WRITTEN BY
+                                                                                                           SAI.B
+
+1) Write a python program to perform Arithematic operation                           
+
+a=25
+
+b=35
+
+add=a+b
+
+sub=a-b
+
+mul=a*b
+
+div=a/b
+
+mod=a%b
+
+fb=a//b
+
+ex=a**b
+
+print(add)
+
+print(sub)
+
+print(mul)
+
+print(div)
+
+print(mod)
+
+print(fb)
+
+print(ex)
+
+------------------------------------------------------------------------------------------------------------------------------
+
+2) Write a python program to perform Arithematic operation using input
+
+a= int(input("Enter the first number:"))
+
+b= int(input("Enter the second number:"))
+
+add = a+b
+
+sub=a-b
+
+mul=a*b
+
+div=a/b
+
+mod=a%b
+
+fb=a//b
+
+ex=a**b
+
+print(add)
+
+print(sub)
+
+print(mul)
+
+print(div)
+
+print(mod)
+
+print(fb)
+
+print(ex)
+
+
+
+output:-
+
+Enter the first number:20
+
+Enter the second number:50
+
+70
+
+-30
+
+1000
+
+0.4
+
+20
+
+0
+
+11258999
+
+--------------------------------------------------------------------------------------------------------
+
+
+3)Write a python program to perform comparision operator
+
+a= int(input("Enter the first number:"))
+
+b= int(input("Enter the second number:"))
+
+
+print(a == b)
+print(a != b)
+print(a < b)
+print(a > b)
+print(a <= b)
+print(a >= b)
+
+output:-
+
+Enter the first number:10
+
+Enter the second number:20
+
+False
+
+True
+
+True
+
+False
+
+True
+
+False
+
+-------------------------------------------------------------------------------------------------------------
+
+5)Write a python program to perform find the area of a triangle
+
+base=float(input("base"))
+height=float(input("height"))
+area=0.5*base*height
+print("Area of a triangle :",area)
+
+
+Output:-
+
+base :50
+
+height :60
+
+Area of a triangle : 1500.0
+
+-------------------------------------------------------------------------------------------------------------------------
+
+6)Write a pytho program to find the area and parameter of rectangle
+
+length=float(input("Enter the length of the rectangle:"))
+width=float(input("Enter the width of the rectangle:"))
+area = length*width
+perameter =2*(length+width)
+print("Area of rectangle is", area)
+print("Perameter of rectangle is ", perimeter)
+
+Output:-
+
+Enter the length of the rectangle: 10
+
+Enter the width of the rectangle: 20
+
+Area of rectangle is 200.0
+
+Perameter of rectangle is  60.0
+-------------------------------------------------------------------------------------------------
+7)write a python program to find radious of a circle
+
+dia=float(input("Enter the diameter:"))
+
+radious = dia/2
+
+print("radious",radious)
+
+Output:-
+
+Enter the diameter:10
+
+radious 5.0
+
+-------------------------------------------------------------------------------------------
+
+8)write a python program to accept two numbers and perform swapping of two numbers
+
+#Using airthmetic operations
+
+a=7
+
+b=9
+
+print("Before swapping:",a,b)
+
+a=a+b
+
+b=a-b
+
+a=a-b
+
+print("After swapping:",a,b)
+
+
+
+#Using tuple unpacking
+
+a,b=7,4
+
+print("Before swapping:",a,b)
+
+a,b=b,a
+
+print("After swapping:",a,b)
+
+
+
+#Using multiplcation and division method
+
+a = 5
+
+b = 7
+
+print("Before swapping:",a,b)
+
+a = a * b
+
+b = a // b
+
+a = a // b
+
+print("After swapping:", a,b)
+
+
+
+
+
+Output:-
+
+Before swapping: 7 9
+
+After swapping: 9 7
+
+Before swapping: 7 4
+
+After swapping: 4 7
+
+Before swapping: 5 7
+
+After swapping: 7 5
+
+--------------------------------------------------------------------------------------------
